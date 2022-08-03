@@ -1,0 +1,81 @@
+header{
+    background: gray;
+    padding: 1rem;
+}
+link {
+    color: #ffffff;
+    font-weight: bold;
+    text-decoration: none;
+}
+.main-container {
+    background: rgb(241, 221, 230);
+    padding: 50px;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+}
+.main-para {
+    padding-right: 40px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 25px;
+
+}
+.main-img{
+   height: 100%;
+   border: 3px black solid;
+}
+
+/* PRODUCT SECTION */
+.product-container {
+    background: rgb(241, 221, 230);
+    height: auto;
+}
+.card-body {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.acc-details{
+    width: 100%;
+    background: pink;
+}
+.button{
+    background: pink;
+    color: rgb(0, 0, 0);
+    border: none;
+}
+.button:hover{
+    background: rgb(19, 8, 13);
+    color: rgb(255, 248, 248);
+}
+.card-card{
+    width: 250px;
+    padding: 5px;
+}
+.card-img{
+    width: 240px;
+    height: 240px;
+}
+.card-body{
+    padding: 5px;
+}
+.card1{
+    background: none;
+    border: none;
+}
+
+/* CONTACT PAGE */
+.contact-container{
+    background: rgb(241, 221, 230);
+    height: 100vh;
+}
+.contact{
+    padding-top: 50px;
+    width: 700px;
+
+}
+.form {
+    padding-top: 30px;
+}

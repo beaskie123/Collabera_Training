@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox</title>
+    <style>
+        .flex-container{
+            display: flex;
+            flex-wrap: wrap;           
+            justify-content: space-between;    
+            background: blueviolet;
+        }
+
+        .flex-container > div {
+            background-color: aliceblue;
+            margin: 10px;
+            padding: 20px;
+            font-size: 30px;
+            text-align: center;
+            line-height: 75px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Lorem ipsum dolor sit amet.</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, modi.</p>
+    <div class="flex-container">
+
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
+        <div>7</div>
+        <div>8</div>
+        <div>9</div>
+        <div>10</div>
+        <div>11</div>
+        <div>12</div>
+    </div>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id optio magni, tenetur sequi esse nulla ut eius voluptate, enim tempore facere eos a, eaque tempora facilis nam maxime exercitationem. Culpa?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad omnis libero voluptatibus dicta sequi quam minus ipsam praesentium aperiam quia alias, possimus ea! Corporis voluptatum saepe ratione ullam est. Culpa!</p>
+    
+</body>
+</html>
+<!--
+    FLEX DIRECTION 
+    
+    flex-direction: row ;column ; row-reverse ; column-reverse;
+
+    FLEX WRAP 
+
+    flex-wrap: wrap;           || resizing 
+    flex-wrap: nowrap;          ||same as wrap 
+
+    JUSTIFY CONTENT
+
+    justify-content: center;    ||flexing items in center 
+    justify-content: flex-start;||flexing item in the start of the container
+    justify-content: flex-end;  ||flexing item in the end of the container
+    justify-content: space-between; || space between items
+    justify-content: space-around; || space around the items

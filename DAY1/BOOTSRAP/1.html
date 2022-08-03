@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap 4 Nav</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <script src="https://kit.fontawesome.com/eb5364a132.js" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <style>
+        .basic-margin{
+            margin: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="basic-margin">
+        <nav class="nav justify-content-end">
+            <a href="" class="nav-item nav-link"><i class="fa fa-home"></i>HOME</a>
+            <a href="" class="nav-item nav-link"><i class="fa fa-user"></i>PROFILE</a>
+            <a href="" class="nav-item nav-link"><i class="fa fa-envelope"></i>MESSAGES</a>
+            <a href="" class="nav-item nav-link"><i class="fa fa-line-chart"></i>REPORTS</a>
+        </nav>
+
+        <div class="basic-margin">
+            <h2 class="mb-3">Inline Unordered List</h2>
+            <ul class="list-inline">
+                <li class="list-inline-item">Home</li>
+                <li class="list-inline-item">Products</li>
+                <li class="list-inline-item">About US</li>
+                <li class="list-inline-item">Contact</li>
+            </ul>
+        </div>
+
+        <div class="basic-margin">
+            <h2 class="mb-3">Horizontal Definition</h2>
+            <dl class="row">
+                <dt clas="col-sm-3">Lorem, ipsum dolor.</dt>
+                <dd class="col-sm-9">Lorem ipsum dolor sit amet.</dd>
+                <dt clas="col-sm-3 text-truncate">Lorem, ipsum dolor.</dt>
+                <dd class="col-sm-9">Lorem ipsum dolor sit amet.</dd>
+                <dt clas="col-sm-3">Lorem, ipsum dolor.</dt>
+                <dd class="col-sm-9">Lorem ipsum dolor sit amet.</dd>
+            </dl>
+        </div>
+
+        <div class="basic-margin">
+            <ul class="list-group">
+                <li class="list-group-item">Pictures</li>
+                <li class="list-group-item">Documents</li>
+                <li class="list-group-item">Music</li>
+                <li class="list-group-item">Videos</li>
+            </ul>
+        </div>
+
+        <div class="basic-margin">
+            <form >
+                <div class="custom-control custom-switch">
+                    <input type="checkbox" class="custom-control-input" id="customSwitch1">
+                    <label for="customSwitch1" class="custom-control-label">Toggle Switch</label>
+                </div>
+                <div class="custom-control custom-switch mt-2">
+                    <input type="checkbox" class="custom-control-input" id="customSwitch2">
+                    <label for="customSwitch2" class="custom-control-label">Disable Swicth</label>
+                </div>
+            </form>
+            <p class="mt-4"><strong>Note</strong> Click on the toggle switch to see how it works</p>
+        </div>
+
+        <div class="basic-margin">
+            <form >
+                <dic class="custom-file">
+                    <input type="file" class="custom-file-input" id="customFile">
+                    <label for="customFile" class="custom-file-label">Choose File</label>
+                </dic>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
+
+<!-- 
+    NAVBAR
+    justify-content-center||start||end
+    flex-column
+ -->

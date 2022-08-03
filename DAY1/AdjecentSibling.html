@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <title>Exampple of Adjecent Sibling Selector</title>
+
+    <style>
+        h1 + p{
+            color: pink;
+            font-weight:  bold;
+        }
+         
+        ul.task + p {
+            color: blueviolet;
+            font-weight: bold;
+        }
+
+        ul > li {
+            list-style: square;
+        }
+
+        ul > li ol {
+            list-style: none;
+        }
+
+        h1 ,h2 ,h3 {
+            font-weight: normal;
+        }
+        h1{
+            font-size: 36px;
+        }
+        h2{
+            font-size: 28px;
+        }
+        h3{
+            font-size: 22px;
+        }
+    </style>
+</head>
+<body>
+    <h1> Lorem, ipsum dolor.</h1>
+    <p>Lorem ipsum dolor sit amet.</p>
+    <p>Lorem ipsum dolor sit amet.</p>
+
+    <ul class="task">
+        <li>Lorem, ipsum.</li>
+        <li>Lorem, ipsum.</li>
+        <li>Lorem, ipsum.</li>
+    </ul>
+    <p>Lorem, ipsum dolor.</p>
+    <p>Lorem ipsum dolor sit.</p>
+
+    <!-- CHILD SELECTOR -->
+    <ul>
+        <li> <a href="#">Home</a></li>
+        <li> <a href="#">About</a></li>
+        <li> <a href="#">Services</a>
+        <ol>
+            <li><a href="#"> Design</a></li>
+            <li><a href="#"> Development</a></li>
+        </ol>
+        </li>
+        <li><a href="#">Contact</a></li>
+    </ul>
+    <!-- Group Selector -->
+    <h1>This is heading of level 1</h1>
+    <h2>This is heading of level 2</h2>
+    <h3>This is heading of level </h3>
+</body>
+</html>

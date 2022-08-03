@@ -1,0 +1,8 @@
+.nav-container {
+  background: pink;
+}
+.nav a{
+  text-decoration: none;
+  color: #010101;
+  width: 90px;
+}

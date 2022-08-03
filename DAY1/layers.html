@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>layers</title>
+    <style>
+        .container {
+            position: relative;
+            
+        }
+        .box {
+            width: 150px;
+            height: 150px;
+            opacity: 0.9;
+            position: absolute;
+        }
+        .red{
+            background: rgb(241, 43, 43);
+            z-index: 1;
+        }
+        .green {
+            background: rgb(46, 240, 46);
+            top: 30px;
+            left: 30px;
+            z-index: 2;
+        }
+        .blue{
+            top: 60px;
+            left: 60px;
+            background: rgb(70, 70, 226);
+            z-index: 3;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="box red"></div>
+    <div class="box green"></div>
+    <div class="box blue"></div>
+</div>
+    
+</body>
+</html>
